@@ -13,7 +13,7 @@ from discord.ext import commands
 # ============================================================
 #            PROFESSIONAL DISCORD MODERATION BOT - FIXED
 # ============================================================
-TOKEN = "DISCORD_TOKEN"
+TOKEN = os.getenv("DISCORD_TOKEN")
 TEST_GUILD_ID = 0
 DATA_FILE = "modbot_data.json"
 REJOIN_CONTACT = "sojib_rema"
